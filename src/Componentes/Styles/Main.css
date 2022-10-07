@@ -1,0 +1,143 @@
+.Neon {
+    /*body*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* posicion del texto en pixeles*/
+    background-color: #0e1538;
+}
+  
+
+ .Contain-Title {
+    
+    color: aliceblue;
+    position:sticky;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0.5);
+    overflow: hidden;
+    /* causa el efecto de borde, pasa atras el rectangulo*/
+    border-radius: 20px;
+  }
+  
+  .Title {
+    /*H2 */
+    color: rgb(45, 39, 62);
+    font-size: 100px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    text-transform:uppercase ;
+    transition: 1s;
+    text-align: center;
+    color: rgb(251, 251, 251);
+    text-shadow: 0 0 10px  #71d93d ,
+      0 0 25px #bc62ed,
+      0 0 50px #8132ca,
+      0 0 100px #5900ff
+  }
+  
+.Title:hover {
+    color: rgb(251, 251, 251);
+    text-shadow: 0 0 10px  #71d93d ,
+      0 0 25px #bc62ed,
+      0 0 50px #8132ca,
+      0 0 100px #5900ff
+  
+}
+  
+  .Contain-Title::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 890%;
+    background: linear-gradient(130deg,
+   
+  #4f00b3,
+  #5a00cc,
+  #6600e6,
+  #7100ff,
+  #7f1aff,
+  #8d33ff,
+  #9c4dff,
+  #b87fff,
+  #c699ff,
+  #d4b2ff,
+  #e2ccff,
+  #f0e5ff,
+  #ffffff,
+  #63b300,
+  #72cc00,
+  #80e600,
+  #8eff00,
+  #99ff1a,
+  #a5ff33,
+  #b0ff4d,
+  #bbff66,
+  #c6ff7f,
+  #d1ff99
+  
+  );
+    background-size: 1300%;
+    animation: fanimado 1s infinite,animate 3s infinite linear;
+  }
+  
+  .Contein-Title::after {
+    content: '';
+    position: absolute;
+    inset: 4px; /*rellno para el borde*/
+    background: #0e1538;
+    border-radius: 16px;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+      /* giro n ocortado*/
+    }
+  }
+  
+ 
+.btn{
+    width: 100%;
+    height: 100vh;
+    background-color: #0e1538;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.btn-neon, .btn-neon.active, .btn-neon:hover{
+    position: relative;
+    border-style: none;
+    border-radius: 4px;
+    padding: 20px 10px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    margin: 10px;
+    box-shadow: 1px 1px 20px 8px green; 
+}
+.btn-neon {
+    background-color: transparent;
+    color: green;
+    box-shadow: none;
+}
+
+.btn-neon.btn-neon.active, .btn-neon:hover::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    width: 100%;
+    box-shadow: 0px 0px 70px 20px green;
+    transform: perspective(2em) rotateX(50deg) scale(1, 0.45);
+    filter: blur(1em);
+}
