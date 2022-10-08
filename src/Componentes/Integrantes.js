@@ -1,5 +1,5 @@
 import React from "react";
-import "./Styles/Desarroladores.css";
+import "./Styles/Desarrolladores.css";
 
 const Integrantes = (props) => {
     return (

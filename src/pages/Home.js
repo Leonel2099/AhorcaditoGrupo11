@@ -1,6 +1,6 @@
 import Header from "../Componentes/Header";
 import Main from "../Componentes/Main";
-import sonidoFondo from '../Assets/sounds/sonidoFondo.mp3'
+import sonidoFondo from '../assets/sounds/sonidoFondo.mp3'
  
 
 export default function Home() {
