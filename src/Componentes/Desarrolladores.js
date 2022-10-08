@@ -1,7 +1,7 @@
 import React from "react";
-import Integrantes from "./Integrantes";
-import "./Styles/Desarrolladores.css";
-import desarrolladores from "../Componentes/Json/Desarroladores"
+import Integrantes from "./Integrantes.js";
+//import "./Styles/Desarrolladores.css";
+import desarrolladores from "../Componentes/Json/desarroladores.json"
 
 
 function Desarrolladores() {
@@ -9,17 +9,18 @@ function Desarrolladores() {
   return (
     <div className="contPadre">
       <div className="contPrincipal">
-          {
-            desarrolladores.map((e) => <Integrantes
-              name={e.name}
-              gitname={e.gitname}
-              descripcion={e.descripcion}
-              img={e.img} 
-              link={e.link}/>
-            )
-          }
-        </div>
+        {
+          desarrolladores.map((e, i) => <Integrantes
+            key={e.i}
+            name={e.name}
+            gitname={e.gitname}
+            descripcion={e.descripcion}
+            img={e.img}
+            link={e.link} />
+          )
+        }
       </div>
+    </div>
 
   );
 }

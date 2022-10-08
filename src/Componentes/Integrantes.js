@@ -11,7 +11,7 @@ const Integrantes = (props) => {
                 <a href={props.link}>Has click aca si quieres ver mis trabajos</a>
             </div>
             
-            <img className="imagen" src={require(`../Assets/Img/${props.img}`)} alt="https://github.com/nadssnchez" />
+            <img className="imagen" src={href(`../assets/img/ ${props.img}`)} alt="foto de perfil Git" />
            
 
         </div>
