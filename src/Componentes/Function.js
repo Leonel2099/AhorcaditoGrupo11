@@ -9,7 +9,7 @@ function Function() {
     const [palabra, setPalabra] = useState(palabras[valor_azar]);
     console.log(palabra);
     let palabrita = Array.from(palabra);
-    const [imagenJuego, setImagenJuego] = useState("../img/0.png");
+    const [imagenJuego, setImagenJuego] = useState("..Assets/img/0.jpg");
     const [letra, setLetra] = useState([Array(palabrita.length).fill("_ ")]);
     const [errores, setErrores] = useState(0);
     const [aciertos, setAciertos] = useState(0);
@@ -47,8 +47,8 @@ function Function() {
     }
 
     useEffect(() => {
-        setImagenJuego("../img/" + errores + ".png");
-        if (errores == 6) {
+        setImagenJuego("../Assets/img/" + errores + ".jpg");
+        if (errores == 5) {
             setResultado("Perdiste: La palabra era " + palabra);
         }
         if (aciertos == palabra.length) {
