@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import palabras from "../json/palabras.json";
+import palabras from "../Componentes/Json/palabras.json"
 import Container from 'react-bootstrap/Container';
 
 function Function() {
@@ -9,7 +9,7 @@ function Function() {
     const [palabra, setPalabra] = useState(palabras[valor_azar]);
     console.log(palabra);
     let palabrita = Array.from(palabra);
-    const [imagenJuego, setImagenJuego] = useState("..Assets/img/0.jpg");
+    const [imagenJuego, setImagenJuego] = useState("..assets/img/0.jpg");
     const [letra, setLetra] = useState([Array(palabrita.length).fill("_ ")]);
     const [errores, setErrores] = useState(0);
     const [aciertos, setAciertos] = useState(0);
@@ -47,7 +47,7 @@ function Function() {
     }
 
     useEffect(() => {
-        setImagenJuego("../Assets/img/" + errores + ".jpg");
+        setImagenJuego("../assets/img/" + errores + ".jpg");
         if (errores == 5) {
             setResultado("Perdiste: La palabra era " + palabra);
         }
