@@ -1,7 +1,7 @@
 import React from "react";
 import Integrantes from "./Integrantes";
 import "./Styles/Desarrolladores.css";
-import desarrolladores from "../Components/Json/Desarroladores.json"
+import desarrolladores from "../Componentes/Json/Desarroladores"
 
 
 function Desarrolladores() {

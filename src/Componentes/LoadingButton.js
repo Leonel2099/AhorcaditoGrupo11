@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
-import click from '../Assets/sounds/click01.mp3'
+import click from '../assets/sounds/click01.mp3'
 
 function simulateNetworkRequest() {
   return new Promise((resolve) => setTimeout(resolve, 2000));
