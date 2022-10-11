@@ -2,6 +2,13 @@ import { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button"
 import abc from "../json/abecedario.json"
 import dic from "../json/palabras.json"
+import gif from "../assets/img/inicioAnim.gif"
+import img0 from "../assets/img/0.jpg"
+import img1 from "../assets/img/1.jpg"
+import img2 from "../assets/img/2.jpg"
+import img3 from "../assets/img/3.jpg"
+import img4 from "../assets/img/4.jpg"
+import img5 from "../assets/img/5.jpg"
 
 export default function Funcion() {
     const btn_letras = document.querySelectorAll("#botones")
@@ -12,6 +19,58 @@ export default function Funcion() {
     const [play, setPlay] = useState(false)
     const [errores, setErrores] = useState(0);
     const [aciertos, setAciertos] = useState(0);
+    const [resultado, setResultado] = useState("");
+    const [imagen, setImagen] = useState(gif)
+
+    const restart = () => {
+        setNum(Math.floor(Math.random() * dic.length))
+        habilitar();
+        setResultado("")
+        setErrores(0)
+        setAciertos(0)
+        setImagen(img0)
+    }
+    const handleClick = () => {
+        setPlay(true)
+        setImagen(img0)
+        setNum(Math.floor(Math.random() * dic.length))
+    }
+    useEffect(() => {
+        setArrayPalabra(Array(palabra.length).fill("_ "))
+        setPalabraAdivinar(dic[num].word)
+    }, [num]);
+
+    useEffect(() => {
+        switch (errores) {
+            case 1: {
+                setImagen(img1)
+                break
+            }
+            case 2: {
+                setImagen(img2)
+                break
+            }
+            case 3: {
+                setImagen(img3)
+                break
+            }
+            case 4: {
+                setImagen(img4)
+                break
+            }
+            case 5: {
+                setImagen(img5)
+                setResultado("Perdiste: La palabra era " + palabraAdivinar);
+                desHabilitar();
+                break
+            }
+
+        }
+        if (aciertos == palabra.length) {
+            setResultado("Acertaste");
+            desHabilitar();
+        }
+    }, [errores, aciertos])
 
     const habilitar = () => {
         for (let i = 0; i < btn_letras.length; i++) {
