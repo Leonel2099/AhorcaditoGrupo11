@@ -2,13 +2,13 @@ import { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button"
 import abc from "../Componentes/Json/abecedario.json"
 import dic from "../Componentes/Json/palabras.json"
-import gif from "../assets/img/inicioAnim.gif"
-import img0 from "../assets/img/0.jpg"
-import img1 from "../assets/img/1.jpg"
-import img2 from "../assets/img/2.jpg"
-import img3 from "../assets/img/3.jpg"
-import img4 from "../assets/img/4.jpg"
-import img5 from "../assets/img/5.jpg"
+import gif from "../Assets/img/inicioAnim.gif"
+import img0 from "../Assets/img/0.jpg"
+import img1 from "../Assets/img/1.jpg"
+import img2 from "../Assets/img/2.jpg"
+import img3 from "../Assets/img/3.jpg"
+import img4 from "../Assets/img/4.jpg"
+import img5 from "../Assets/img/5.jpg"
 
 export default function Funcion() {
     const btn_letras = document.querySelectorAll("#botones")
