@@ -11,14 +11,13 @@
   display: flex;
   justify-content:center;
   align-items: center;
-  min-height: 100vh;
+  
   background-color: #0e1538;
 }
 
 .cont-Box{
   position: relative;
-  width:1000px ; 
-  height: 500px;
+  width:1000px ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +25,8 @@
   overflow: hidden;
   border-radius: 20px;
   flex-direction: column;
+  height: 400px;
+  margin-top: 50px;
 }
 
 .cont-Box::before{

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button"
-import abc from "../json/abecedario.json"
-import dic from "../json/palabras.json"
+import abc from "../Componentes/Json/abecedario.json"
+import dic from "../Componentes/Json/palabras.json"
 import gif from "../assets/img/inicioAnim.gif"
 import img0 from "../assets/img/0.jpg"
 import img1 from "../assets/img/1.jpg"
@@ -13,7 +13,7 @@ import img5 from "../assets/img/5.jpg"
 export default function Funcion() {
     const btn_letras = document.querySelectorAll("#botones")
     const [num, setNum] = useState(0);
-    const palabra = Array.from(dic[num].word) //seleciona una palbara del diccionario
+    const palabra = Array.from(dic[num].words)
     const [arrayPalabra, setArrayPalabra] = useState([]);
     const [palabraAdivinar, setPalabraAdivinar] = useState("")
     const [play, setPlay] = useState(false)
@@ -37,7 +37,7 @@ export default function Funcion() {
     }
     useEffect(() => {
         setArrayPalabra(Array(palabra.length).fill("_ "))
-        setPalabraAdivinar(dic[num].word)
+        setPalabraAdivinar(dic[num].words)
     }, [num]);
 
     useEffect(() => {
@@ -100,20 +100,22 @@ export default function Funcion() {
         if (acerto == false) {
             setErrores(errores + 1);
         }
-
-        console.log(errores, aciertos)
     }
 
     if (play) {
         return (
-            <div>
+            <div className="functionContainer">
+                <section className="juego">
+                <div className="palabra">
                 <Button onClick={restart}>Reiniciar</Button>
-                <figure>
+                <h1>{errores+"/5 Intentos"}</h1>
+                <h1>{arrayPalabra}</h1>
+                </div>
+                <figure className="sprite">
                     <img src={imagen} height="100" width="100" />
                 </figure>
-                <h1>{errores+"/5 Letras Incorrectas"}</h1>
-                <h1>{arrayPalabra}</h1>
-                <h1>{palabra}</h1>
+                </section>
+                <section className="botonera">
                 {abc.map((l, i) =>
                     <Button onClick={letraOk} id="botones" variant="outline-primary"
                         key={i}
@@ -121,14 +123,15 @@ export default function Funcion() {
                         {l.letra}
                     </Button>
                 )}
+                </section>
                 <h1>{resultado}</h1>
             </div>
         )
     } else {
         return (
-            <div>
-                <figure>
-                    <img src={imagen} height="100" width="100" />
+            <div className="functionContainer">
+                <figure className="imgMain">
+                    <img src={imagen} />
                 </figure>
                 <Button onClick={handleClick}>Comenzar Juego</Button>
             </div>
