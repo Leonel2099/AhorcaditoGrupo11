@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import img  from '../Assets/Icon/Icon.png';
+import img  from '../assets/Icon/Icon.png';
 
 
 export default function NavBar() {
