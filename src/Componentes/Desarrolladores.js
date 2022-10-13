@@ -3,6 +3,10 @@ import Integrantes from "./Integrantes.js";
 import "./Styles/Desarrolladores.css";
 import desarrolladores from "../Componentes/Json/desarrolladores"
 
+/** Cree un array de objectos compuesto por la informacion de cada alumno y integrante del grupo 11
+ * solicitado por el profesor en un componente Json ("desarroladores.json") como el nombre completo, usuario git,etc.
+ *  Utilizo el componente reutilizable "Integrantes.js" el cual mediante 
+ * la funcion "Desarrolladores" realiza un mapeo que renderiza la informacion del array mostrandola por pantalla. Nadia Rosario Sanchez*/
 
 function Desarrolladores() {
 

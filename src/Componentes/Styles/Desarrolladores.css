@@ -1,3 +1,4 @@
+/* ----------------- Contenedor de cada uno  ----------------- */
 .contPadre {
     min-height: 100vh;
     display: flex;
@@ -14,7 +15,7 @@
     align-items: center;
     justify-content: center;
 }
-
+/* ---- Color del contenedor --- */
 .contProps {
     border: 1px solid rgb(255, 255, 255);
     width: 1170px;
@@ -30,6 +31,7 @@
     0 0 25px #008195;
 }
 
+/* ----------------- Estilo de imagen ----------------- */
 .imagen {
     height: 100%;
     width: auto;
@@ -37,6 +39,7 @@
 
 }
 
+/* ----------------- Estilo de la informacion ----------------- */
 .contenedortexto {
     text-align: center;
     padding: 40px;
