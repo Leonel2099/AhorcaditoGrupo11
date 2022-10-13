@@ -4,7 +4,7 @@ import Home from "./pages/Home.js";
 import PlayGame from "./pages/PlayGame.js";
 import ErrorPage from "./pages/ErrorPage.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+/** Exporte los componentes utilizados para poder mostrar en el navegador. Nadia Rosario Sanchez */
 
 
 export default function Game() {
