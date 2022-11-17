@@ -6,7 +6,7 @@ export default function Game() {
         <div className="cont-Principal">
             <div className="neonBody">
                 <div className="cont-Box">
-                    <h2>Ahorcadito</h2>
+                    <h2>Cinemax</h2>
                     <div  className="Button" ><LoadingButton/></div>
                 </div>
             </div>

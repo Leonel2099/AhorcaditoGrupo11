@@ -1,44 +1,48 @@
 [
     {
-      "name": "Nelson Ariel Sagrero",
-      "img": "https://avatars.githubusercontent.com/u/93611545?v=4",
-      "gitname": "Arielsagrero",
-      "descripcion":"Hola soy Ariel, tengo 38 años curso la Tecnicatura en Desarrollo Integral de Videojuegos, soy de Perico – Jujuy –  Argentina. Junto a mi compañero Leo nos asignaron la realizacion de la funcion principal",
-      "link":"https://github.com/arielsagrero"
+      "name": "Jurassic World Dominion",
+      "img": "https://media.socastsrm.com/wordpress/wp-content/blogs.dir/679/files//2022/06/nima-neemz-nakhshab-dominion-final-scaled.jpg",
+      "genero": "GENERO: Ciencia ficción. Aventuras - Duracion: 2h 14min",
+      "descripcion":"Cuatro años después de la destrucción de Isla Nublar, los dinosaurios ahora conviven -y cazan- con los seres humanos en todo el mundo. Este frágil equilibrio remodelará el futuro y determinará, de una vez por todas, si los seres humanos seguirán en la cúspide de los depredadores en un planeta que comparten con los animales más temibles de la creación. ",
+      "puntuacion": "⭐⭐⭐⭐⭐",
+      "actores": "Actores principales: Chris Pratt y Bryce Dallas Howard ",
+      "link":"https://www.youtube.com/watch?v=pF4iC_e_qW8&t=63s"
+      
     },
     {
-      "name": "Facundo Jose Luis Brajeda",
-      "img": "https://avatars.githubusercontent.com/u/82845372?v=4",
-      "gitname": "Facubra",
-      "descripcion":"Hola soy Facundo ,tengo 30 años soy estudiante de la facultad de ingeniería curso la Tecnicatura en Desarrollo Integral de Videojuegos, soy de  Palpala – Jujuy –  Argentina. Mi tarea asignada fue gestionar el error de acceso a una url inválida, incorporar audio y el diseño propio de las imágenes a usar en el proyecto junto a compañero Emmanuel.",
-      "link":"https://github.com/Facubra"
+      "name": "Avatar",
+      "img": "https://es.web.img3.acsta.net/c_310_420/medias/nmedia/18/92/13/82/20182449.jpg",
+      "genero": "GENERO: Ciencia ficción.Extraterrestres - Duracion: 1h 10min ",
+      "descripcion":"Ambientada más de una década después de los acontecimientos de la primera película, 'Avatar: The Way of Water' empieza contando la historia de la familia Sully (Jake, Neytiri y sus hijos), los problemas que los persiguen, lo que tienen que hacer para mantenerse a salvo, las batallas que libran para seguir con vida y las tragedias que sufren.",
+      "puntuacion": "⭐⭐⭐⭐",
+      "actores": "Actores principales: Zoe Saldaña y Sam Worthington",
+      "link":"https://www.youtube.com/watch?v=96d3jsVWnOE"
     },
     {
-      "name": "Lucas Jose Fernando Velasquez",
-      "img": "https://avatars.githubusercontent.com/u/112434409?v=4",
-      "gitname": "Fernando29Velasquez",
-      "descripcion":"Hola soy Fernando, tengo 20 años soy estudiante de la facultad de ingeniería curso la Tecnicatura en Desarrollo Integral de Videojuegos, soy de San Salvador de Jujuy – Argentina. Como integrante del Grupo11 me designaron la parte del diseño de las páginas principales (Home, Play y About) junto con mi compañera Nadia. ",
-      "link":"https://github.com/Fernando29Velasquez"
+      "name": "AVENGERS",
+      "img": "https://www.ecartelera.com/carteles/3900/3977/002_m.jpg",
+      "genero": "GENERO: Fantástico. Acción. Ciencia ficción - Duracion: 1h 44min",
+      "descripcion":"Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro. Adaptación del cómic de Marvel: Los Vengadores, el legendario grupo de superhéroes formado por Ironman, Hulk, Thor y el Capitán América entre otros.  ",
+      "puntuacion": "⭐⭐⭐⭐⭐",
+      "actores": "Actores principales: Scarlett Johansson,Jeremy Renner,Robert Downey Jr.,Chris Evans y Mark Ruffalo",
+      "link":"https://www.youtube.com/watch?v=yNXfOOL8824"
     },
     {
-      "name": "Leonel Ezequiel Choque",
-      "img": "https://avatars.githubusercontent.com/u/91150997?v=4",
-      "gitname": "Leonel2099",
-      "descripcion":"Hola soy Leonel, tengo 23 años soy estudiante de la facultad de ingeniería curso la Tecnicatura en Desarrollo Integral de Videojuegos, soy de Perico – Jujuy –  Argentina. Mi tarea asignada fue la de hacer la Funcion principal junto a mi compañero Ariel.",
-      "link":"https://github.com/Leonel2099"
+      "name": "V/H/S 94",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxm9w91xdgY67jn_XCB_yeJa5kRW8HfUrBzdis-2nh0iSkE8nbC2OtPHACs0iLngW9Lq8&usqp=CAU",
+      "genero": "GENERO: Terror. Thriller - Duracion: 1h 54min ",
+      "descripcion":"Secuela de V/H/S (2012). Buscando a un estudiante desaparecido, dos investigadores privados irrumpen en su casa y encuentran una colección de cintas VHS. Cuando ven los horribles contenidos cada casete, se dan cuenta que puede haber motivos oscuros detrás de la desaparición del estudiante. ",
+      "puntuacion": "⭐⭐⭐⭐⭐",
+      "actores": "Actores principales: Simon Barrett y Hannah Fierman",
+      "link":"https://www.youtube.com/watch?v=8O8EmrbN1Ys"
     },
     {
-      "name": "Emmanuel Joaquin Villegas",
-      "img": "https://avatars.githubusercontent.com/u/112435991?v=4",
-      "gitname": "Joavscript",
-      "descripcion":"Hola soy Emmanuel, tengo 33 años soy estudiante de la facultad de ingeniería curso la Tecnicatura en Desarrollo Integral de Videojuegos, soy de San Salvador de Jujuy – Argentina. Mi tarea asignada fue gestionar el error de acceso a una url inválida, incorporar audio y el diseño propio de las imágenes a usar en el proyecto junto a compañero Facundo.",
-      "link":"https://github.com/Joavscript"
-    },
-    {
-      "name": "Nadia Rosario Sanchez",
-      "img": "https://avatars.githubusercontent.com/u/112371346?v=4",
-      "gitname": "Nadssnchez",
-      "descripcion":"Hola soy Nadia, tengo 19 años soy estudiante de la facultad de ingeniería curso la Tecnicatura en Desarrollo Integral de Videojuegos, soy de San Salvador de Jujuy – Argentina. Como integrante del Grupo11 me designaron la parte del diseño de las páginas principales (Home, Play y About) junto con mi compañero Fernando. ",
-      "link":"https://github.com/nadssnchez"
+      "name": "Hasta el ultimo hombre",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8SxoEb5VSEmxZwHpxEwT2t90TBxS7NqFaPQH5iyxcXmJfPgJsLTdE6M6TPNg5pX2kjds&usqp=CAU",
+      "genero": "GENERO: Bélico. Drama - Duracion: 1h 14min",
+      "descripcion":"Narra la historia de Desmond Doss, un joven médico militar que participó en la sangrienta batalla de Okinawa, en el Pacífico durante la II Guerra Mundial, y se convirtió en el primer objetor de conciencia en la historia estadounidense en recibir la Medalla de Honor del Congreso. Doss quería servir a su país, pero desde pequeño se había hecho una promesa a sí mismo: no coger jamás ningún arma.",
+      "puntuacion": "⭐⭐⭐⭐⭐",
+      "actores": "Actores principales: Andrew Garfield",
+      "link":"https://www.youtube.com/watch?v=QJUsNs7tLFA"
     }
   ]

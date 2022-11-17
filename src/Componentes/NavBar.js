@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import img  from '../Assets/Icon/Icon.png';
+import img  from '../Assets/Icon/icon.png';
 
 
 export default function NavBar() {
@@ -19,9 +19,9 @@ export default function NavBar() {
                         />
                     </Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/PlayGame">PlayGame</Nav.Link>
-                        <Nav.Link href="/AboutPage">AboutPage</Nav.Link>
+                        <Nav.Link href="/">Inicio</Nav.Link>
+
+                        <Nav.Link href="/Cartelera">Cartelera</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
@@ -29,3 +29,4 @@ export default function NavBar() {
 
     )
 };
+                       // <Nav.Link href="/NavBarHome">Contactanos</Nav.Link>

@@ -6,13 +6,13 @@
 
 }
 
-/* ----------------- Titulo Ahorcadito ----------------- */
+/* ----------------- Titulo ----------------- */
 .neonBody{
   display: flex;
   justify-content:center;
   align-items: center;
   
-  background-color: #0e1538;
+  background-color: #000000;
 }
 
 .cont-Box{
@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0,0,0,0.5);
+  background-color:#0d0c0c;
   overflow: hidden;
   border-radius: 20px;
   flex-direction: column;
@@ -34,14 +34,14 @@
   position: absolute;
   width: 150px; 
   height: 300%;
-  background: linear-gradient(#cce3ff,#99faff,#66f8ff,#00f4ff,#00c3cc,	#0075ff,#0b00ff);
+  background: linear-gradient(#ffcccc,#ff9999,#ff6666,#ff0000,#d24242,	#ff0062,#bd2f42);
   animation: animate 3s linear infinite;
 }
 .cont-Box::after{
   content: '';
   position: absolute;
   inset: 10px; /*tamano de la linea*/
-  background-color: #0e1538;
+  background-color: #000000;
   border-radius: 16px;
 }
 
@@ -54,19 +54,20 @@
   letter-spacing: 4px;
   text-align: center;
   color: rgb(251, 251, 251);
-  text-shadow: 0 0 5px #0d00ff71 ,
-    0 0 25px 	#0075ff,
-    0 0 50px #00f4ff,
-    0 0 100px #cce3ff;
+  text-shadow: 
+  0 0 5px #5f0c0c ,
+    0 0 25px 	#821717,
+    0 0 50px #ff0000,
+    0 0 100px #e28e8e;
 }
 
 /* ----------------- Boton Play ----------------- */
 .Button{
   position: relative;
-  color: aliceblue;
-  font-size: 5em;
-  z-index: 10;
-  margin-left: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  z-index: 20;
+  margin-left: 10px;
 }
 
 /* ----------------- animaciones ----------------- */
