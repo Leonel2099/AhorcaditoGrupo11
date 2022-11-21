@@ -1,19 +1,17 @@
 import React from "react";
-import "./Styles/Peliculas.css";
+import "./Styles/Desarrolladores.css";
 
 const Integrantes = (props) => {
     return (
         <div className="contProps">
             <div className="contenedortexto">
                 <div className="name">{props.name}</div>
-                <div className="genero">{props.genero} </div>
-                <div className="descripcion-actores">{props.descripcion}</div>
-                <a href={props.link}>Has click para ver el trailer</a>
-                <div className="puntuacion">{props.puntuacion}</div>
-                <div className="descripcion-actores">{props.actores}</div>
+                <div className="gitname">{props.gitname} </div>
+                <div className="descripcion">{props.descripcion}</div>
+                <a href={props.link}>Has click aca si quieres ver mis trabajos</a>
             </div>
             
-            <img className="imagen" src={props.img} alt="foto de la pelicula" />
+            <img className="imagen" src={props.img} alt="foto de perfil Git" />
            
 
         </div>
